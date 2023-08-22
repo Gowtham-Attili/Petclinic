@@ -309,24 +309,7 @@
             <testResource>
                 <directory>${project.basedir}/src/test/resources</directory>
             </testResource>
-        </testResources>
-        <plugins>
-            <!-- ... (Other plugins) ... -->
-
-            <!-- Add the spring-boot-maven-plugin -->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>    
+        </testResources>    
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
